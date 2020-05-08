@@ -4,7 +4,7 @@ management:
       exposure:
         include: '*'
 server:
-  port: 8081
+  port: 8082
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/customerDB?createDatabaseIfNotExist=true&useTimezone=true&serverTimezone=UTC
